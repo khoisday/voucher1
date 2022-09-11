@@ -7,7 +7,25 @@
 	<title >Thời khóa biểu</title>
 	<link rel="stylesheet" type="text/css" href="voucher.css">
 </head>
+<style type="text/css">
+    #warning-message { display: none; }
+    @media only screen and (orientation:portrait){
+        #wrapper { display:none; }
+        #warning-message { display:block; }
+    }
+    @media only screen and (orientation:landscape){
+        #warning-message { display:none; }
+    }
+</style>
 
+....
+
+<div id="wrapper">
+    <!-- your html for your website -->
+</div>
+<div id="warning-message">
+    this website is only viewable in landscape mode
+</div>
 	</table>
 	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="voucher.js"></script>
