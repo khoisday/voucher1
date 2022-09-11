@@ -129,7 +129,7 @@ td.active1{
   }
 }
 @media only screen and (orientation:landscape){
-  #container {  
+  #block {  
      -webkit-transform: rotate(0deg);
      -moz-transform: rotate(0deg);
      -o-transform: rotate(0deg);
@@ -137,3 +137,9 @@ td.active1{
      transform: rotate(0deg);
   }
 }
+@media only screen and (orientation:portrait){
+	#wrapper {width:1024px}
+	}
+	
+	@media only screen and (orientation:landscape){
+	}
