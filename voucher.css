@@ -1,5 +1,5 @@
 body{
-	background-image: url("/asset/voucher.jpeg");
+	background-image: url("voucher.jpeg");
 	background-size: 10%;
 	background-attachment: fixed;
 }
